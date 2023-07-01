@@ -21,13 +21,13 @@ Automated methods to detect and classify blood cell subtypes have important medi
 	  - https://www.kaggle.com/datasets/paultimothymooney/blood-cells
 	
 	2. Data Preprocessing
-	  - ImageDataGenerator
-      		- rescale: 1./255
-      		- image size: (224, 224)
-      		- color mode: rgb
-        	- class mode: sparse
+		- ImageDataGenerator
+  			- rescale: 1./255
+     			- image size: (224, 224)
+        		- color mode: rgb
+          		- class mode: sparse
 	
-	3. Model & Algorithms
+	4. Model & Algorithms
 	  - Transfer Learning(TL)
         	- MobileNet(CNN)
 	  - Fine Tunning
@@ -42,13 +42,13 @@ Automated methods to detect and classify blood cell subtypes have important medi
             	- val_loss
             	- save_best_only
 
-	4. Report
+	5. Report
    	  - loss: 0.0025, accuracy: 0.9994
 	  - val_loss: 1.0904, val_accuracy: 0.8528
 	  - Problems(문제): Overfitting and Low Accuracy(과대적합과 낮은 정확도)
 	  ![First_Training_Result](https://github.com/kkyukkyu99/Portfolio_DL_2/blob/main/First_Training_Result.png)
 	
-	5. Solution
+	6. Solution
 	  - Solve overfitting problem by mixing and redistributing
 	  - 데이터를 섞은 후 재분배하여 과대적합 문제를 해결한다.
 
