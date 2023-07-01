@@ -65,5 +65,5 @@ Automated methods to detect and classify blood cell subtypes have important medi
          - Convert Color: BGR to RGB
          - Resize: (224, 224)
          - Normalizaiton: /255
-      - Predict result: EOSINOPHIL
+- Predict Result: EOSINOPHIL
        
