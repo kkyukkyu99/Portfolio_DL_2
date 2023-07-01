@@ -33,13 +33,13 @@ Automated methods to detect and classify blood cell subtypes have important medi
        			- Activate function: softmax
           		- optimizer: Adam
             		- learning_rate: 1e-5
-              		- callbacks
-                		- EarlyStopping
-                  			- val_loss
-                     			- patience = 5
-                        	- ModelCheckpoint
-                         		- val_loss
-                           		- save_best_only
+              	- callbacks
+                	- EarlyStopping
+                  		- val_loss
+                     		- patience = 5
+                      	- ModelCheckpoint
+                         	- val_loss
+                           	- save_best_only
 
 	4. Report
 		- loss: 0.0025, accuracy: 0.9994
