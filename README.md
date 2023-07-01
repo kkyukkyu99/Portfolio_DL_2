@@ -59,7 +59,7 @@ Automated methods to detect and classify blood cell subtypes have important medi
   	   	![Second_Training_Result](https://github.com/kkyukkyu99/Portfolio_DL_2/blob/main/Second_Training_Result.png)<br>
 
     7. Testing with Random Eosinophil image from Google<br>
-  	  	![Random Eosinophil image from Google](https://github.com/kkyukkyu99/Portfolio_DL_2/blob/main/Eosinophil_predict_image.jpg)<br>
+  	  	![Random Eosinophil image from Google](https://github.com/kkyukkyu99/Portfolio_DL_2/blob/main/Eosinophil_predict_image.jpg){: width="400" height="300"}<br>
 		- OpenCV
   			- Convert Color: BGR to RGB
   	  		- Resize: (224, 224)
