@@ -25,7 +25,7 @@ Automated methods to detect and classify blood cell subtypes have important medi
      		- image size: (224, 224)
         	- color mode: rgb
           	- class mode: sparse<br>
-		![Blood Cell Images with Label Names](https://github.com/kkyukkyu99/Portfolio/blob/main/Blood_Cell_Images_and_Label_Names.png)
+		![Blood Cell Images with Label Names](https://github.com/kkyukkyu99/Portfolio_DL_2/blob/main/Blood_Cell_Images_and_Label_Names.png)
 	
 	3. Model & Algorithms
 		- Transfer Learning(TL)
