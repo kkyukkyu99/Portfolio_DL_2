@@ -64,7 +64,6 @@ Automated methods to detect and classify blood cell subtypes have important medi
       - OpenCV
        	 - Convert Color: BGR to RGB
          - Resize: (224, 224)
-         - Normalizaiton: /255
-
+         - Normalizaiton: /255<br>
       - Predict Result: EOSINOPHIL
          
