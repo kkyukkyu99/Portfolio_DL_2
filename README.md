@@ -23,8 +23,8 @@ Automated methods to detect and classify blood cell subtypes have important medi
 		- ImageDataGenerator
   			- rescale: 1./255
      			- image size: (224, 224)
-        		- color mode: rgb
-          		- class mode: sparse
+     			- color mode: rgb
+     			- class mode: sparse
 	
 	3. Model & Algorithms
 		- Transfer Learning(TL)
@@ -34,9 +34,9 @@ Automated methods to detect and classify blood cell subtypes have important medi
           		- optimizer: Adam
             		- learning_rate: 1e-5
 	       	- callbacks
-              		- EarlyStopping
-        	  		- val_loss
-        	  		- patience = 5
+        		- EarlyStopping
+        	 		- val_loss
+        	   		- patience = 5
         	  	- ModelCheckpoint
         	  		- val_loss
         	  	 	- save_best_only
