@@ -25,7 +25,7 @@ Automated methods to detect and classify blood cell subtypes have important medi
       		- rescale: 1./255
       		- image size: (224, 224)
       		- color mode: rgb
-		      - class mode: sparse
+        	- class mode: sparse
 	
 	3. Model & Algorithms
 	  - Transfer Learning(TL)
