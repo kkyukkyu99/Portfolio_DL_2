@@ -2,7 +2,7 @@
 DeepLearning Project Porfolio
 
 ***
-<h2>#1. Project - Brain Tumor MRI Image Classification</h2> 
+<h2>#2. Project - Blood Cell Image Classification</h2> 
 
 - Background
 <p>The diagnosis of blood-based diseases often involves identifying and characterizing patient blood samples.
